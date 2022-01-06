@@ -1,0 +1,19 @@
+
+
+.bg-img {
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  // @extend .img-zoom;
+}
+
+.img-bg50 {
+  position: relative;
+
+  &::before {
+    display: block;
+    content: "";
+    padding-top: 63%;
+  }
+}

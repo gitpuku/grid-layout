@@ -1,0 +1,12 @@
+.flex{
+    flex-direction: row;
+}
+.contact{
+    &__inner{
+        justify-content: space-between;
+    }
+    &__info,
+    &__form{
+        flex-basis: 47%;
+    }
+}
